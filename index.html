@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Седона — путешествие</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item"><a class="nav-list-item-link" href="#general">Главная</a></li>
+        <li class="nav-list-item"><a class="nav-list-item-link" href="#photos">Фото и видео</a></li>
+        <li class="nav-list-item">
+          <a href="index.html">
+            <img src="icons/logo.svg" alt="logo">
+          </a>
+        </li>
+        <li class="nav-list-item"><a class="nav-list-item-link" href="#reviews">Форма отзыва</a></li>
+        <li class="nav-list-item"><a class="nav-list-item-link" href="#academy">HTML academy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- главное изображение -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media">
+        <img src="images/back-desktop.jpg.png" alt="Каньоны и скалы Седоны" class="hero__image" />
+      </div>
+
+      <div class="hero__content">
+        <h1 id="hero-title" class="hero__title">SEDONA</h1>
+        <p class="hero__subtitle">Because the Grand Canyon sucks!</p>
+        <p class="hero__lead">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+      </div>
+    </section>
+
+    <!-- интро -->
+    <section class="intro " aria-labelledby="intro-title">
+      <h2 id="intro-title" class="intro__title">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</h2>
+      <p class="intro__text">Узнайте, что делает Седону особенной: от настоящего городка до красивых дорог и спокойного отдыха.</p>
+    </section>
+
+    <!-- список причин -->
+    <section class="reasons" aria-labelledby="reasons-title">
+      <h2 id="reasons-title" class="reasons__heading visually-hidden">Пять причин посетить Седону</h2>
+
+      <ol class="reasons__list">
+        <li class="reasons__item" id="reason-1">
+          <article class="card reason-card" aria-labelledby="reason-1-title">
+            <h3 id="reason-1-title" class="reason-card__title">№1 — Настоящий городок</h3>
+            <p class="reason-card__copy">Седона не аттракцион для туристов, там течёт своя жизнь. Рекомендуем пожить в настоящем мотеле, всё как в кино.</p>
+          </article>
+        </li>
+
+        <li class="reasons__item" id="reason-2">
+          <article class="card reason-card" aria-labelledby="reason-2-title">
+            <h3 id="reason-2-title" class="reason-card__title">№2 — Там есть Мост дьявола</h3>
+            <p class="reason-card__copy">Да, по нему можно пройти — если вы осмелитесь.</p>
+          </article>
+        </li>
+
+        <li class="reasons__item" id="reason-3">
+          <article class="card reason-card" aria-labelledby="reason-3-title">
+            <h3 id="reason-3-title" class="reason-card__title">№3 — Небольшая площадь</h3>
+            <p class="reason-card__copy">Все интересные места находятся очень близко.</p>
+          </article>
+        </li>
+
+        <li class="reasons__item" id="reason-4">
+          <article class="card reason-card" aria-labelledby="reason-4-title">
+            <h3 id="reason-4-title" class="reason-card__title">№4 — Красивая дорога</h3>
+            <p class="reason-card__copy">Ехать в Седону из Лас-Вегаса совсем не скучно.</p>
+          </article>
+        </li>
+
+        <li class="reasons__item" id="reason-5">
+          <article class="card reason-card" aria-labelledby="reason-5-title">
+            <h3 id="reason-5-title" class="reason-card__title">№5 — Мало туристов</h3>
+            <p class="reason-card__copy">Большинство едет в Гранд Каньон и толпится там — в Седоне спокойнее.</p>
+          </article>
+        </li>
+      </ol>
+    </section>
+
+    <!-- преимущества -->
+    <section class="features" aria-labelledby="features-title">
+      <h2 id="features-title" class="features__heading">Что посмотреть и попробовать</h2>
+
+      <ul class="features__grid" role="list">
+        <li class="feature">
+          <div class="feature__icon" aria-hidden="true"><!-- иконка жилья --></div>
+          <h3 class="feature__title">Жильё</h3>
+          <p class="feature__text">Рекомендуем пожить в настоящем мотеле, всё как в кино.</p>
+        </li>
+
+        <li class="feature">
+          <div class="feature__icon" aria-hidden="true"><!-- иконка бургера --></div>
+          <h3 class="feature__title">Еда</h3>
+          <p class="feature__text">Всегда заказывайте фирменный бургер — вы не разочаруетесь!</p>
+        </li>
+
+        <li class="feature">
+          <div class="feature__icon" aria-hidden="true"><!-- иконка сувениры --></div>
+          <h3 class="feature__title">Сувениры</h3>
+          <p class="feature__text">Не только китайского производства, но и местного ремесла.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- поиск гостницы -->
+    <section class="cta" aria-labelledby="cta-title">
+      <h2 class="cta__heading">Заинтересовались?</h2>
+      <p class="cta__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
+
+      <button class="btn btn--primary" type="button">Найти гостиницу</button>
+      
+    </section>
+
+    <!-- карта -->
+    <section class="map" aria-labelledby="map-title">
+      <h2 id="map-title" class="map__heading">Где находится Седона</h2>
+      <div class="map__frame" role="region" aria-label="Карта Седоны (интерактивная)" tabindex="0">
+        <iframe title="Карта Седоны" width="1200" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1200&amp;height=350&amp;hl=en&amp;q=Sedona+(SEDONA)&amp;t=&amp;z=7&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+          <a href="https://www.mapsdirections.info/it/calcola-la-popolazione-su-una-mappa/">popolazione comuni Italia mappa interattiva</a>
+        </iframe>
+        <p class="visually-hidden">Интерактивная карта здесь будет загружена через API карт (Google Maps / OpenStreetMap).</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- футер -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p class="site-footer__copyright">#visitSEDONA</p>
+
+      <nav class="social-nav" aria-label="Социальные сети">
+        <ul class="social-nav__list">
+          <li class="social-nav__item"><a class="social-nav__link" href="#" aria-label="VK">VK</a></li>
+          <li class="social-nav__item"><a class="social-nav__link" href="#" aria-label="Twitter">Twitter</a></li>
+          <li class="social-nav__item"><a class="social-nav__link" href="#" aria-label="Instagram">Instagram</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
