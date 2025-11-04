@@ -1,0 +1,127 @@
+/* ==========================================================================
+   GLOBAL STYLES
+   ========================================================================== */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+  overflow: hidden;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance:none;
+  appearance: none;
+}
+  
+body {
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+  
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,1,1,.2);
+}  
+
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+.nav {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 56px;
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,1,1,.2);
+}
+  
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+.nav-logo img{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+  
+.nav-list-item-link {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+  
+.nav-list-item-link:hover {
+  color: #81B3D2;
+}
+  
+.nav-list-item-link:active {
+  color: black;
+  opacity: 30%;
+}
+  
+/* ==========================================================================
+   HERO
+   ========================================================================== */
+ 
+.hero {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+  
+.hero__media {
+  position: relative;
+}
+  
+.hero__media-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+  
+.hero__media-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+  
+.hero__media-triangles {
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  z-index: 2;
+}

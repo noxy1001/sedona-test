@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Седона — путешествие</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="fonts.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav" aria-label="Основное меню">
+        <ul class="nav-list">
+          <li><a class="nav-list-item-link" href="index.html">Главная</a></li>
+          <li><a class="nav-list-item-link" href="catalogue.html" style="color: #766357">Фото и видео</a></li>
+          <li><a href="index.html" class="nav-logo"><img src="icons/logo.svg" alt="Логотип Седоны"></a></li>
+          <li><a class="nav-list-item-link" href="#reviews">Форма отзыва</a></li>
+          <li><a class="nav-list-item-link" href="#academy">HTML Academy</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- главное изображение -->
+      <section class="hero">
+        <h1 class="visually-hidden">Добро пожаловать в Седону!</h1>
+        <div class="hero__media">
+          <img src="images/back-desktop.jpg.png" alt="Каньоны и скалы Седоны" class="hero__media-image">
+          <img src="icons/text-sedona.svg" alt="" class="hero__media-text">
+          <img src="icons/introtriangle.svg.svg" alt="декоративные треугольники" class="hero__media-triangles">
+        </div>
+      </section>
+
+      <section class="intro">
+        <h2 class="visually-hidden">Фото и видео. Седона</h2>
+        <span class="intro-title">Фото и видео</span>
+        <span class="intro-text" style="width: 430px;">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</span>
+      </section>
+
+      <section class="gallery">
+        <article class="gallery__item" style="grid-area: a;">
+          <img src="images/photo-1-desktop.jpg" alt="неродные просторы">
+          <figcaption>
+            <div class="gallery__caption">НЕРОДНЫЕ ПРОСТОРЫ</div>
+            <div class="gallery__author">Автор фото: Борис</div>
+            <div class="gallery__likes">1350</div>
+          </figcaption>
+        </article>
+        <article class="gallery__item" style="grid-area: b;">
+          <img src="images/photo-cactus-desktop@2x.jpg" alt="Местная растительность">
+          <figcaption>
+            <div class="gallery__caption">Местная растительность</div>
+            <div class="gallery__author">Автор фото: Сергей</div>
+            <div class="gallery__likes">143</div>
+          </figcaption>
+        </article>
+        <article class="gallery__item" style="grid-area: c;">
+          <img src="images/photo-roads-desktop@2x.jpg" alt="Дорога на север">
+          <figcaption>
+            <div class="gallery__caption">ДОРОГА НА СЕВЕР</div>
+            <div class="gallery__author">Автор фото: Петр</div>
+            <div class="gallery__likes">96</div>
+          </figcaption>
+        </article>
+        <article class="gallery__item" style="grid-area: d;">
+          <img src="images/photo-4-desktop@2x.jpg" alt="Мост дьявола">
+          <figcaption>
+            <div class="gallery__caption">МОСТ Дьявола</div>
+            <div class="gallery__author">Автор фото: Антон</div>
+            <div class="gallery__likes">254</div>
+          </figcaption>
+        </article>
+      </section>
+
+      <section class="middle">
+        <h2 class="visually-hidden">Всё ещё сомневаетесь?</h2>
+        <span class="middle-title">Все еще сомневаетесь?</span>
+        <span class="middle-text" style="width: 430px;">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</span>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <p class="footer__hashtag">#visitSEDONA</p>
+        <nav class="social-nav" aria-label="Социальные сети">
+          <ul class="social-nav__list">
+            <li>
+              <a class="social-nav__link" href="#"><img src="icons/footer-vk.svg" alt="ВКонтакте"></a>
+            </li>
+            <li>
+              <a class="social-nav__link" href="#"><img src="icons/footer-tg.svg" alt="Telegram"></a>
+            </li>
+            <li>
+              <a class="social-nav__link" href="#"><img src="icons/footer-yt.svg" alt="YouTube"></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
